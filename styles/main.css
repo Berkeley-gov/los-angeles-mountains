@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+
+header {
+    background-image: url('.././assets/Los-Angeles-mountains-banner.png');
+    background-size: cover;
+}
+
+
+/* Top Navigation Bar */
+
+.navbar-top {
+    margin-bottom: 50%;
+}
+
+.nav-item a {
+    color: white;
+    font-family: Lato, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    text-underline-offset: 4px;
+}
+
+.nav-item a:hover {
+    color: #526896;
+}
+
+button:hover {
+    color: #FFF !important;
+}
+
+#navbar-list-1 .nav-item,
+#navbar-list-2 .nav-item {
+    width: 150px;
+}
+
+.navbar-brand {
+    margin-left: 10%;
+}
+
+
+/* Middle navbar */
+
+.navbar-middle {
+    background-color: white;
+    margin-top: 50%;
+}
+
+.nav-item-theme-color a {
+    color: #414f6b;
+}
+
+.nav-item-theme-color:hover {
+    text-decoration-color: #414f6b;
+}
+
+
+/* Main body content */
+
+main {
+    background-image: url('.././assets/mountain-banner-middle.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 50%;
+    background-position: top left;
+}
+
+.history-content {
+    margin-top: -45%;
+}
+
+.history-content .content-paragraphs {
+    margin-top: 5%;
+    font-size: 1.2rem;
+}
+
+.history-title {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Oswald, Arial;
+}
+
+.drop-cap {
+    font-family: Oswald, Arial;
+    font-weight: bold;
+    color: rgba(108, 124, 151, 0.70);
+    float: left;
+    font-size: 10rem;
+    line-height: 0;
+    margin: 0.1em -0.2em 0.5em 0;
+    padding: 0;
+}
+
+.text-color-theme {
+    color: #414f6b;
+}
+
+.content-paragraphs {
+    font-size: 1rem;
+    font-family: Lato, Arial;
+}
+
+.history-content .container {
+    width: 1100px;
+}
+
+
+/* Coursel content */
+
+.coursel-theme-background {
+    background-color: #414f6b;
+    opacity: .9;
+    padding: 3% 0 1% 0;
+    margin-top: 20%;
+}
+
+.coursel-theme-background img {
+    height: 180px;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0 0 0;
+    list-style-type: none;
+}
+
+.slick-dots li {
+    margin: 0 0.25rem;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #FFF;
+}
+
+.slick-dots button {
+    display: block;
+    width: .8rem;
+    height: .8rem;
+    padding: 0;
+    border: none;
+    border-radius: 100%;
+    background-color: gray;
+    text-indent: -9999px;
+}
+
+
+/* Climb Section Content */
+
+.climb-theme-background {
+    background-color: #FFF;
+}
+
+.climb-content {
+    padding: 7% 5% 4% 5%;
+}
+
+.climb-content .content-paragraphs {
+    margin-left: -45%;
+}
+
+.climb-content .drop-cap {
+    color: #b0b4be;
+}
+
+
+/* Tab Bar Section */
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #b0b4be !important;
+    background-color: #c3c9d0 !important;
+}
+
+.nav-pills .nav-link {
+    font-size: 1.5rem;
+    font-family: Oswald, Arial;
+    color: #c3c9d0;
+    font-weight: bold;
+}
+
+.tab-section-background {
+    background-color: #414f6b;
+}
+
+.tab-content-section {
+    background-image: url('.././assets/mountain-1.png');
+    background-size: cover;
+    padding-top: 55%;
+}
+
+.nav-pills .nav-link {
+    border-radius: unset !important;
+}
+
+.tab-pane {
+    color: black;
+    font-weight: bold;
+    margin-top: -38%;
+}
+
+.tab-content {
+    z-index: 1;
+}
+
+.mountain-1,
+.mountain-2 {
+    width: 100%;
+}
+
+
+/* Footer Section */
+
+footer {
+    padding: 1.5% 5% 0.5% 5%;
+}
+
+footer p {
+    font-size: 1.5rem;
+    color: #63769d;
+    font-family: Lato, Arial;
+    font-style: italic;
+}
+
+.card {
+    width: 30%;
+    margin-left: 12%;
+    margin-top: 10%;
+    padding: 1.5%;
+    background-color: rgba(255, 255, 255, 0.70) !important;
+    border: unset !important;
+}
+
+table {
+    border-collapse: unset !important;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0;
+    border-bottom-width: unset !important;
+    box-shadow: unset !important;
+}
+
+h3 {
+    font-size: 2rem !important;
+    font-family: Oswald, Arial;
+    font-weight: bold !important;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-style: unset !important;
+    font-weight: 300;
+    font-family: Lato, Arial;
+    font-size: 1rem;
+}
+
+td {
+    border-style: none;
+    width: 50%;
+}
+
+.november-schedule-1 {
+    line-height: 0.3;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.december-schedule-1 {
+    line-height: 2;
+}
+
+.november-schedule-2,
+.february-schedule-2 {
+    line-height: 2;
+}
+
+.december-schedule-2 {
+    line-height: 0.3;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+@media (min-width: 1200px) {
+    .card {
+        width: 30% !important;
+        margin-top: 0;
+    }
+}
+
+
+/* Tablets */
+
+@media (min-width: 768px) {
+    .climb-content .content-paragraphs {
+        margin-left: -10%;
+    }
+    main {
+        padding-top: 55%;
+    }
+    .climb-content {
+        padding: 10% 5% 4% 5%;
+    }
+    .card {
+        width: 50%;
+    }
+    footer p {
+        font-size: 1rem;
+    }
+}
+
+
+/* Mobile devices  */
+
+@media (max-width: 479px) {
+    #navbar-list-1 .nav-item,
+    #navbar-list-2 .nav-item {
+        width: 100px;
+        font-size: .8rem;
+    }
+    header {
+        background-image: url(.././assets/Los-Angeles-mountains-banner.png);
+        background-repeat: unset;
+        background-attachment: unset;
+        background-size: cover;
+    }
+    .navbar-brand {
+        margin-left: 0;
+    }
+    .navbar-top img {
+        width: 50%;
+        margin-left: 1rem;
+    }
+    .navbar-nav {
+        flex-direction: unset !important;
+    }
+    .history-content .container {
+        width: auto;
+    }
+    .history-content .content-paragraphs {
+        font-size: 1rem;
+    }
+    .navbar-middle img {
+        width: 80%;
+    }
+    .navbar {
+        flex-wrap: unset !important;
+    }
+    .drop-cap {
+        font-size: 6rem;
+        margin: 0.1em -0.2em 0.5em 0;
+    }
+    .history-title {
+        font-size: 1.5rem;
+    }
+    .history-content {
+        margin-top: -30%;
+    }
+    main {
+        background-image: url(.././assets/mountain-banner-middle.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 50%;
+        background-position: center;
+    }
+    .coursel-theme-background {
+        padding: 10% 5% 5% 5%;
+    }
+    .climb-content {
+        padding: 20% 0 4% 0;
+    }
+    .climb-content .content-paragraphs {
+        margin-left: 0;
+    }
+    .tab-content-section {
+        background-repeat: unset;
+        background-attachment: unset;
+        padding-bottom: 10%;
+    }
+    .nav {
+        flex-wrap: unset !important;
+    }
+    .nav-pills .nav-link {
+        font-size: 1rem;
+    }
+    footer p {
+        font-size: .4rem;
+    }
+    footer img {
+        width: 50%;
+    }
+    footer {
+        padding: 3%;
+    }
+    .card {
+        width: auto;
+        margin-left: 0;
+        margin-top: 5%;
+        padding: 1.5%;
+        background-color: rgba(255, 255, 255, 0.70) !important;
+        border: unset !important;
+    }
+}
